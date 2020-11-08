@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/f1-react/static/css/main.6b63ddcf.chunk.css",
+    "main.js": "/f1-react/static/js/main.f86f3783.chunk.js",
+    "main.js.map": "/f1-react/static/js/main.f86f3783.chunk.js.map",
+    "runtime-main.js": "/f1-react/static/js/runtime-main.5ba53ac9.js",
+    "runtime-main.js.map": "/f1-react/static/js/runtime-main.5ba53ac9.js.map",
+    "static/js/2.9e477b17.chunk.js": "/f1-react/static/js/2.9e477b17.chunk.js",
+    "static/js/2.9e477b17.chunk.js.map": "/f1-react/static/js/2.9e477b17.chunk.js.map",
+    "index.html": "/f1-react/index.html",
+    "static/css/main.6b63ddcf.chunk.css.map": "/f1-react/static/css/main.6b63ddcf.chunk.css.map",
+    "static/js/2.9e477b17.chunk.js.LICENSE.txt": "/f1-react/static/js/2.9e477b17.chunk.js.LICENSE.txt",
+    "static/media/alexander-albon.9573ba0e.png": "/f1-react/static/media/alexander-albon.9573ba0e.png",
+    "static/media/antonio-giovinazzi.48dfd7b0.png": "/f1-react/static/media/antonio-giovinazzi.48dfd7b0.png",
+    "static/media/carlos-sainz.3b658ff3.png": "/f1-react/static/media/carlos-sainz.3b658ff3.png",
+    "static/media/charles-leclerc.e25a62ab.png": "/f1-react/static/media/charles-leclerc.e25a62ab.png",
+    "static/media/daniel-ricciardo.177a0fda.png": "/f1-react/static/media/daniel-ricciardo.177a0fda.png",
+    "static/media/daniil-kvyat.37261575.png": "/f1-react/static/media/daniil-kvyat.37261575.png",
+    "static/media/esteban-ocon.b7b0f60b.png": "/f1-react/static/media/esteban-ocon.b7b0f60b.png",
+    "static/media/george-russell.e2805387.png": "/f1-react/static/media/george-russell.e2805387.png",
+    "static/media/kevin-magnussen.753cfa5f.png": "/f1-react/static/media/kevin-magnussen.753cfa5f.png",
+    "static/media/kimi-raikkonen.c93d0788.png": "/f1-react/static/media/kimi-raikkonen.c93d0788.png",
+    "static/media/lance-stroll.f460f882.png": "/f1-react/static/media/lance-stroll.f460f882.png",
+    "static/media/lando-norris.1037c6fa.png": "/f1-react/static/media/lando-norris.1037c6fa.png",
+    "static/media/lewis-hamilton.5f02c2ef.png": "/f1-react/static/media/lewis-hamilton.5f02c2ef.png",
+    "static/media/max-verstappen.b92a560b.png": "/f1-react/static/media/max-verstappen.b92a560b.png",
+    "static/media/nicholas-latifi.35c7b640.png": "/f1-react/static/media/nicholas-latifi.35c7b640.png",
+    "static/media/pierre-gasly.63310b32.png": "/f1-react/static/media/pierre-gasly.63310b32.png",
+    "static/media/romain-grosjean.f5e63dc1.png": "/f1-react/static/media/romain-grosjean.f5e63dc1.png",
+    "static/media/sebastian-vettel.b72e7caa.png": "/f1-react/static/media/sebastian-vettel.b72e7caa.png",
+    "static/media/sergio-perez.8a35d5ea.png": "/f1-react/static/media/sergio-perez.8a35d5ea.png",
+    "static/media/valtteri-bottas.271a100b.png": "/f1-react/static/media/valtteri-bottas.271a100b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ba53ac9.js",
+    "static/js/2.9e477b17.chunk.js",
+    "static/css/main.6b63ddcf.chunk.css",
+    "static/js/main.f86f3783.chunk.js"
+  ]
+}
