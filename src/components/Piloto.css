@@ -1,0 +1,28 @@
+.piloto{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    max-width: 300px;
+    min-width: 300px;
+    justify-content: center;
+    margin: 5px;
+    border: solid 5px;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+}
+.piloto h2{
+    text-align: center;
+}
+.content{
+    color: #000;
+    background-color: #fff;
+    flex: 1;
+    text-align: center;
+}
+.content img{
+    width: 100%;
+}
+.content p{
+    font-size: 1.3em;
+}
