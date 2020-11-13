@@ -22,9 +22,22 @@ Precisei armazenar as informações dos pilotos de forma que fosse possível reo
 
 Agora com as informações de cada piloto armazenadas era possível organizá-las de acordo com a ordem de chegada, para isso utilizei uma função de ordenação que era disponibilizada pelo próprio JS.
 
+
+
+
 ![f1-react-img3](https://user-images.githubusercontent.com/40327303/98481309-21e15480-21d8-11eb-82c0-bba08d136c06.png)
 
 Com o JSON ordenado pela ordem de chegada as informações da pista são passadas para o piloto, uma grande dificuldade do projeto foram as imagens. No React é necessário importar a imagem para depois utilizá-la, então tive que importar as imagens no componente “pista” e estabelecer os valores no JSON, e depois enviá-lo ao componente “pista” dessa forma ele sempre recebe o caminho correto da imagem independente de onde esteja rodando.
+
+### Perícia
+
+Porém os resultados são 100% aleatórios e qualquer piloto pode vencer. Com o objetivo de deixar o projeto mais realista, observei o resultado real de todos os pilotos durante as 13 corridas disputadas até aqui em 2020.
+
+Então adicionei o conceito de “perícia”, onde eu tirei a média da posição de chegada de todos os pilotos. Em que o piloto com a menor média é o parâmetro principal, no caso Lewis Hamilton com a média de 1,92.
+
+Hamilton recebeu a perícia base de 6, e os demais pilotos receberam a perícia base menos sua diferença com relação a média de Hamilton, dividido por 10. 
+
+Exemplo: Bottas tem uma média de 4,3. Então a diferença dele para Hamilton é de 2,38. Dividimos por 10, e temos o resultado de 0,238. Então subtraímos esse valor da perícia base que é 6, e temos a perícia de Bottas que é de 5,762.
 
 
 ![f1-react-img2](https://user-images.githubusercontent.com/40327303/98481246-b4cdbf00-21d7-11eb-96a3-8f471c3b2ad2.png)
