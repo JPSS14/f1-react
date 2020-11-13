@@ -1,14 +1,11 @@
 import React from "react"
 import "./Piloto.css"
-import norris from "../images/lando-norris.png"
 
 export default function Piloto(props) {
-    const imagem = props.imagem;
     const pilotoStyle = {
         backgroundColor: props.colorP || "#222",
         borderColor: props.colorS || "#999"
     }
-    const velocidade = props.velocidade
     let tempoTotal = props.tempoTotal
     let minuto = 0;
     let segundo = 0;
